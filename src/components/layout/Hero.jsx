@@ -1,7 +1,3 @@
-import HeroImage from './HeroImage';
-import HeroIconLinks from './HeroIconLinks';
-
-
 export default function Hero({ leftContent, rightContent }) {
 
   return (

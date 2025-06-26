@@ -13,7 +13,7 @@ export default function Item({ item, isSelected, onClick }) {
     >
       {item.title} @ {item.company}
     </li>
-    <hr className="border-[var(--primary)] mb-6" />
+    <hr className="border-[var(--primary)]" />
     </div>
   );
 }

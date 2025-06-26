@@ -10,11 +10,11 @@ export default function SectionWrapper({ heading, items }) {
   return (
     <section className="w-[95%] mx-auto my-10">
       <h2 className="text-2xl font-semibold mb-2">{heading}</h2>
-      <hr className="border-[var(--primary)] mb-6" />
+      <hr className="border-[var(--primary)]" />
       
       <div className="flex flex-col md:flex-row gap-6">
         {/* Item List */}
-        <div className="md:w-1/3">
+        <div className="md:w-1/3 pr-0 mb-6 md:mb-0 border-r border-[var(--primary)]">
           <ItemList
             items={items}
             selectedId={selectedId}
@@ -23,7 +23,7 @@ export default function SectionWrapper({ heading, items }) {
         </div>
 
         {/* Item Display */}
-        <div className="md:w-2/3">
+        <div className="md:w-2/3 mt-2">
           {selectedItem ? <ItemDisplay item={selectedItem} /> : <p>No item selected</p>}
         </div>
       </div>
