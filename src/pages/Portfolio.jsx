@@ -16,7 +16,7 @@ export default function Portfolio() {
       leftContent={
         <>
           <HeroImage
-            src=""
+            src="src\assets\portfolio-art-doodle-headshot.png"
             alt="Shubham Maharjan"
             caption="Master of Information Technology (Cyber Security)"
           />
