@@ -5,6 +5,7 @@ import SectionWrapper from "../components/layout/SectionWrapper";
 import { FaLinkedin, FaSpotify, FaGithub, FaGoodreads } from "react-icons/fa";
 import workExperience from './../data/workExperience';
 import academics from './../data/academics';
+import certifications from './../data/certifications';
 
 const socialLinks = [
   { href: "https://linkedin.com/in/shubham-maharjan/", label: "LinkedIn", Icon: FaLinkedin },
@@ -40,6 +41,7 @@ export default function Profile() {
       />
       <SectionWrapper heading="Work Experience" items={workExperience} />
       <SectionWrapper heading="Academic Background" items={academics} />
+      <SectionWrapper heading="Certifications" items={certifications} />
     </div>
   );
 }
